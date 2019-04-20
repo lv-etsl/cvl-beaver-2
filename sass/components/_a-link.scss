@@ -1,0 +1,11 @@
+// some Links
+
+a {
+  color: $color-main-link;
+  text-decoration: none;
+
+  &:hover {
+    color: darken($color-main-link,25%);
+
+  }
+}

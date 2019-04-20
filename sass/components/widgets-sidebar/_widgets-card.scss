@@ -1,0 +1,24 @@
+// style widgets comme CARD de bootstrap
+[role = complementary] {
+
+  & .widget {
+
+    .widgettitle {
+      color: $widget-title;
+      border: 1px solid $widget-border;
+      border-radius: 0.25rem 0.25rem 0 0;
+      padding: 0.75rem 1.25rem;
+      margin-bottom: 0;
+      background-color: rgba(0, 0, 0, 0.03);
+    }
+
+    & > :nth-child(2) {
+      padding: 1rem;
+      border-left: 1px solid $widget-border;
+      border-right: 1px solid $widget-border;
+      border-bottom: 1px solid $widget-border;
+      border-radius: 0 0 0.25rem 0.25rem;
+    }
+
+  }
+}

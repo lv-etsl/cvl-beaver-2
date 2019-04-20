@@ -1,0 +1,8 @@
+// on crée un sub footer avec un background fixed
+// height > variables > _mesvariables
+.sub-footer {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  min-height: $sub-footer-height;
+}

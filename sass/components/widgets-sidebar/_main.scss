@@ -1,0 +1,38 @@
+// a main file
+
+[role = complementary] {
+  &> .widget {
+      padding: 1rem; // on padding ici et non margin les li
+      margin: 0;
+      list-style-type: none;
+
+      a {
+          color: $my--black;
+      }
+
+      .widgettitle {
+          color: $widget-title;
+          &::first-letter {
+              text-transform: capitalize;
+          }
+      }
+
+      ul {
+          padding: 0;
+          margin: 0;
+          list-style-type: none;
+          li {
+              list-style-type: none;
+              a {
+                  display: inline-block;
+              }
+          }
+      }
+      // widget widget_calendar
+      // wp-calendar
+      table {
+          width: 100%;
+          height: 100%;
+      }
+  }
+}

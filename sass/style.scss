@@ -1,0 +1,28 @@
+// ONE FILE TO RULE THEM ALL
+@charset 'utf-8';
+
+/*
+  Theme Name: cvl-beaver
+  Theme URI:
+  Descritpion : thème cvl pour l'année 2019
+  Version: 1.0
+  Author:  Laurent Vermeille
+*/
+
+
+/* test ohhh my god*/
+
+// MES VARAIBLES
+@import 'variables/mesvariables';
+// Bootstrap
+@import 'vendors/bootstrap/vendor/rfs';
+@import 'vendors/bootstrap/bootstrap';
+// LAYOUT
+@import 'layout/main';
+//@import 'layout/aside';          // !! sub grid avec breakpoints problème comme boot est flex ...
+@import 'layout/aside-flex';       // !! sub grid avec breakpoints flex
+@import 'layout/sub-footer';       // !! sub grid avec breakpoints flex
+@import 'layout/footer-flex';
+// COMPONENTS
+@import 'components/widgets';      // style générale
+@import 'components/a-link';     // style a général

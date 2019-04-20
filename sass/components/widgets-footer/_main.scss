@@ -1,0 +1,18 @@
+//
+
+[role = footer ] > .row > .widget {
+  padding: 1rem; // on padding ici et non margin les li
+  margin: 0;
+  list-style-type: none;
+  border: 1px solid $tone-1;
+
+}
+
+
+[role = footer ] > .row > a.widget {
+  color: $white;
+}
+
+a.widget [role = footer ] {
+  color: $white;
+}

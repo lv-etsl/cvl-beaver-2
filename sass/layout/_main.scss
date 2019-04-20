@@ -1,0 +1,22 @@
+// some extra Style
+
+
+[role = main] {
+  min-height: $main-height;
+  margin-bottom: 2rem;
+
+  article {
+    min-height: $main-height;
+    display: inline-block;
+    display: flex;
+    flex-direction: column;
+
+    p{
+      min-width: 20vh;
+    }
+
+    img {
+        @include img-fluid;
+    }
+  }
+}

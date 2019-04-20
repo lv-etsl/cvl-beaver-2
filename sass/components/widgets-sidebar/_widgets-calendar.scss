@@ -1,0 +1,17 @@
+// widget wp-calendar
+
+#wp-calendar {
+
+
+  tbody tr:nth-of-type(#{$table-striped-order}) {
+    background-color: $table-accent-bg;
+  }
+
+  a {
+    color: $tone-1;
+  }
+
+  #next {
+    text-align: right;
+  }
+}
